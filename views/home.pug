@@ -1,0 +1,44 @@
+extends base.pug
+block scripts  
+    script(src='../static/index.js')
+block style 
+    style
+        include ../static/style.css
+block content
+    section#introsection
+        div Welcome to Harry's Dance Academy
+        div.small Eat Sleep Dance Repeat
+    section#mission
+        h1 Our Mission
+        div.card
+            h3 Dance Perfection
+            div.card-box
+                div.card-img
+                    img(src="https://th.bing.com/th/id/OIP.c6-LlkaL7eCkXGczFTNhGAHaJl?pid=ImgDet&w=175&h=225&c=7&dpr=1.5")
+                div.card-content
+                    p This is the best dance academy of the universe
+
+        div.card
+            h3 Dance the way you like
+            div.card-box
+                div.card-img
+                    img(src="https://th.bing.com/th/id/OIP.lh4NS5fRIizHNJbZH2qQYgAAAA?pid=ImgDet&w=175&h=218&c=7&dpr=1.5")
+                div.card-content
+                    p This is the best dance academy of the universe
+
+        div.card
+            h3 Expert Teaching
+            div.card-box
+                div.card-img
+                    img(src="https://th.bing.com/th/id/OIP.q_35vGkfIKpmKR0ANMQenAHaHa?pid=ImgDet&w=175&h=175&c=7&dpr=1.5")
+
+                div.card-content
+                    p This is the best dance academy of the universe
+    section#sponsorsection
+        h1 Our Sponsors
+        div#sponsor
+            img(src="https://th.bing.com/th/id/OIP.sKVLMfrlexSk9OJ7Vbt55wHaGW?rs=1&pid=ImgDetMain" ,alt="error"  , class="SPimage")
+            img(src="https://th.bing.com/th/id/OIP.aPyHWMu3KHjwJUWdGrEkZQHaHa?rs=1&pid=ImgDetMain" ,alt="error "  ,class="SPimage")
+            img(src="https://th.bing.com/th/id/OIP.Kws3qnBP6KOzsO00iwHOlwHaI9?rs=1&pid=ImgDetMain " ,alt="error"  , class="SPimage")
+            img(src="https://th.bing.com/th/id/OIP.WhkO1jxKajp1ZE72TUzv9AAAAA?rs=1&pid=ImgDetMain", alt="error"   ,class="SPimage")
+       
