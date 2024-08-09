@@ -1,0 +1,1 @@
+This project is a fully responsive and user-friendly website for a dance academy. It features an elegant design, class schedules, instructor bios, and easy-to-navigate pages that showcase the academy's offerings. Built with modern web technologies like HTML, CSS, JavaScript, and Bootstrap, this website is designed to provide a seamless experience across all devices.
